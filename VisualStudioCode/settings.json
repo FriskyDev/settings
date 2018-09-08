@@ -1,0 +1,14 @@
+{
+    "workbench.sideBar.location": "right",
+    "explorer.openEditors.visible": 0,
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    "editor.rulers": [
+        80,
+        120,
+        132
+    ],
+    "git.autofetch": true
+}
