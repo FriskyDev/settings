@@ -1,14 +1,32 @@
 {
     "workbench.sideBar.location": "right",
-    "explorer.openEditors.visible": 0,
-    "editor.tabSize": 4,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.default.cppStandard": "c++17",
+    "workbench.startupEditor": "newUntitledFile",
     "editor.renderWhitespace": "all",
-    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": true,
+    "editor.fontSize": 12,
     "editor.wordWrap": "off",
-    "editor.rulers": [
-        80,
-        120,
-        132
+    "explorer.openEditors.visible": 0,
+    "window.menuBarVisibility": "default",
+    "go.testFlags": [
+        "-v"
     ],
-    "git.autofetch": true
+    "python.pythonPath": "/usr/bin/python3",
+    "editor.tabSize": 4,
+    "glsllint.glslangValidatorPath": "$HOME/vulkan/bin/glslangValidator",
+    "breadcrumbs.enabled": true,
+    "go.delveConfig": {
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxVariableRecurse": 25,
+            "maxStringLen": 2048,
+            "maxArrayValues": 2048,
+            "maxStructFields": -1
+        }
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
 }
