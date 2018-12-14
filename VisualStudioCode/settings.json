@@ -2,6 +2,7 @@
     "C_Cpp.intelliSenseEngine": "Default",
     "C_Cpp.default.cppStandard": "c++17",
     "breadcrumbs.enabled": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.fontSize": 12.5,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
