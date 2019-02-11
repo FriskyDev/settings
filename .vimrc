@@ -1,10 +1,14 @@
+set exrc
+set secure
+
+syntax on
 call pathogen#infect()
 
 syntax enable
-filetype plugin on
+filetype plugin indent on
 set number
 set relativenumber
-set tabstop=4
+set tabstop=4 shiftwidth=4 expandtab
 set expandtab
 let g:go_disable_autoinstall = 0
 
@@ -15,15 +19,12 @@ let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 
-" neocomplete
-let g:neocomplete#enable_at_startup = 1
-
 " molokai color theme
 colorscheme molokai
 "colorscheme carbonized-dark
 
 " tagbar
-let g:tagbar_type_go = {  
+let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
     \ 'kinds'     : [
         \ 'p:package',
