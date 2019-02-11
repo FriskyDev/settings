@@ -2,15 +2,23 @@
     "C_Cpp.intelliSenseEngine": "Default",
     "C_Cpp.default.cppStandard": "c++17",
     "breadcrumbs.enabled": true,
+    "bookmarks.navigateThroughAllFiles": true,
     "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.dragAndDrop": false,
     "editor.fontSize": 12.5,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
+    "editor.rulers": [
+        80,
+        120,
+        132
+    ],
     "editor.tabSize": 4,
     "editor.wordWrap": "off",
+    "explorer.enableDragAndDrop": false,
     "explorer.openEditors.visible": 0,
     "glsllint.glslangValidatorPath": "$HOME/vulkan/bin/glslangValidator",
     "go.testFlags": [
@@ -26,7 +34,9 @@
         }
     },
     "python.pythonPath": "/usr/bin/python3",
+    "search.useIgnoreFiles": false,
     "window.menuBarVisibility": "default",
+    "window.restoreWindows": "none",
     "window.zoomLevel": 1,
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile"
