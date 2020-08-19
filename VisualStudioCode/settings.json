@@ -20,6 +20,8 @@
     "editor.wordWrap": "off",
     "explorer.enableDragAndDrop": false,
     "explorer.openEditors.visible": 0,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
     "glsllint.glslangValidatorPath": "$HOME/vulkan/bin/glslangValidator",
     "go.testFlags": [
         "-v"
